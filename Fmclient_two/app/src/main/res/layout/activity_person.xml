@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/person_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected Items"
+        android:textSize="9pt"/>
+    <TextView android:id="@+id/first_name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Name"
+        android:textSize="6pt"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <TextView android:id="@+id/person_last"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected Items"
+        android:textSize="9pt"/>
+    <TextView android:id="@+id/last_name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Name"
+        android:textSize="6pt"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <TextView android:id="@+id/person_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected Items"
+        android:textSize="9pt"/>
+    <TextView android:id="@+id/gender_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textSize="6pt"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <Button
+        android:id="@+id/eventsButton"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_column="0"
+        android:layout_marginRight="8dp"
+        android:text="Events"
+        android:textSize="20px"
+        android:textStyle="normal" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/peopleButton"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_column="0"
+        android:layout_marginRight="8dp"
+        android:text="People"
+        android:textSize="20px"
+        android:textStyle="normal" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

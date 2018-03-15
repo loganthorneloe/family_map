@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/lifestorylines"
+            android:text="Life Story Lines"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="21dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="200dp"
+            android:text="SHOW LIFE STORY LINES"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/lifestorylines" />
+        <Spinner
+            android:id="@+id/colors_spinner1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/lifestorylines"/>
+        <Switch
+            android:id="@+id/life_stories_switch"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="15dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/familytreelines"
+            android:text="Family Tree Lines"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp" />
+        <TextView
+            android:layout_width="200dp"
+            android:text="SHOW FAMILY TREE LINES"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/familytreelines" />
+        <Spinner
+            android:id="@+id/colors_spinner2"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/familytreelines"/>
+        <Switch
+            android:id="@+id/family_tree_switch"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="15dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/spouselines"
+            android:text="Spouse Lines"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp" />
+        <TextView
+            android:layout_width="200dp"
+            android:text="SHOW SPOUSE LINES"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/spouselines" />
+        <Spinner
+            android:id="@+id/colors_spinner3"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/spouselines"/>
+        <Switch
+            android:id="@+id/spouse_switch"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="15dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/maptype"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:text="Map Type" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/maptype"
+            android:text="MAP BACKGROUND" />
+
+        <Spinner
+            android:id="@+id/map_type_spinner"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/maptype"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/resync"
+            android:text="Re-sync Data"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp" />
+        <TextView
+            android:id="@+id/resync2"
+            android:layout_width="200dp"
+            android:text="FROM FAMILY MAP SERVER"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/resync" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/logout"
+            android:text="Log Out"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp" />
+        <TextView
+            android:id="@+id/logout2"
+            android:layout_width="200dp"
+            android:text="RETURNS TO LOGIN SCREEN"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/logout" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+</LinearLayout>

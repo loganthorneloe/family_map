@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:layout_alignParentRight="true"
+android:layout_alignParentEnd="true"
+android:stretchColumns="0,1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Server Host:"
+            android:id="@+id/serverHostText"
+            android:layout_column="0"
+            android:layout_marginRight="8dp"
+            android:textStyle="normal"
+            android:textSize="35px" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/serverHostFill"
+            android:layout_column="1"
+            android:textStyle="normal"
+            android:textSize="35px" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Server Port:"
+            android:id="@+id/serverPortText"
+            android:layout_column="0"
+            android:layout_marginRight="8dp"
+            android:textStyle="normal"
+            android:textSize="35px" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/serverPortFill"
+            android:layout_column="1"
+            android:textStyle="normal"
+            android:textSize="35px" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name:"
+            android:id="@+id/userNameText"
+            android:layout_column="0"
+            android:layout_marginRight="8dp"
+            android:textStyle="normal"
+            android:textSize="35px" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/userNameFill"
+            android:layout_column="1"
+            android:textStyle="normal"
+            android:textSize="35px" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:id="@+id/passwordText"
+            android:layout_column="0"
+            android:layout_marginRight="8dp"
+            android:textStyle="normal"
+            android:textSize="35px" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordFill"
+            android:layout_column="1"
+            android:textStyle="normal"
+            android:textSize="35px" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name:"
+            android:id="@+id/firstNameText"
+            android:layout_column="0"
+            android:layout_marginRight="8dp"
+            android:textStyle="normal"
+            android:textSize="35px" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstNameFill"
+            android:layout_column="1"
+            android:textStyle="normal"
+            android:textSize="35px" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Name:"
+            android:id="@+id/lastNameText"
+            android:layout_column="0"
+            android:layout_marginRight="8dp"
+            android:textStyle="normal"
+            android:textSize="35px" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lastNameFill"
+            android:layout_column="1"
+            android:textStyle="normal"
+            android:textSize="35px" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:id="@+id/emailText"
+            android:layout_column="0"
+            android:layout_marginRight="8dp"
+            android:textStyle="normal"
+            android:textSize="35px" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailFill"
+            android:layout_column="1"
+            android:textStyle="normal"
+            android:textSize="35px" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender:"
+            android:id="@+id/genderText"
+            android:layout_column="0"
+            android:layout_marginRight="8dp"
+            android:textStyle="normal"
+            android:textSize="35px" />
+
+        <RadioGroup android:id="@+id/radioGroup" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <RadioButton android:id="@+id/male" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Male"/>
+            <RadioButton android:id="@+id/female" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Female"/>
+        </RadioGroup>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="8dp">
+
+        <Button
+            android:id="@+id/signInButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginRight="8dp"
+            android:text="Sign in"
+            android:textSize="40px"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Register"
+            android:textSize="40px"
+            android:textStyle="normal" />
+    </TableRow>
+
+</TableLayout>

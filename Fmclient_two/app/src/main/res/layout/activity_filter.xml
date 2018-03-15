@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView android:id="@+id/recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/father1" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp" android:text="Father's Side" android:textSize="10pt"
+            android:padding="2dp"/>
+        <TextView android:id="@+id/father2" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginStart="20dp"
+            android:text="Filter By Father's Side" android:textSize="5pt" android:layout_below="@+id/father1"
+            android:padding="2dp"/>
+        <Switch android:id="@+id/fatherSwitch" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="43dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/mother1" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp" android:text="Mother's Side" android:textSize="10pt"
+            android:padding="2dp"/>
+        <TextView android:id="@+id/mother2" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginStart="20dp"
+            android:text="Filter By Mother's Side" android:textSize="5pt" android:layout_below="@+id/mother1"
+            android:padding="2dp"/>
+        <Switch android:id="@+id/motherSwitch" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="43dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/male1" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp" android:text="Male Events" android:textSize="10pt"
+            android:padding="2dp"/>
+        <TextView android:id="@+id/male2" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginStart="20dp"
+            android:text="Filter By Male Events" android:textSize="5pt" android:layout_below="@+id/male1"
+            android:padding="2dp"/>
+        <Switch android:id="@+id/maleSwitch" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="43dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/female1" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp" android:text="Female Events" android:textSize="10pt"
+            android:padding="2dp"/>
+        <TextView android:id="@+id/female2" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginStart="20dp"
+            android:text="Filter By Female Events" android:textSize="5pt" android:layout_below="@+id/female1"
+            android:padding="2dp"/>
+        <Switch android:id="@+id/femaleSwitch" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="43dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+</LinearLayout>

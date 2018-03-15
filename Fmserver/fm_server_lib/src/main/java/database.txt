@@ -1,0 +1,48 @@
+
+drop table if exists users;
+drop table if exists auth_tokens;
+drop table if exists persons;
+drop table if exists events;
+
+create table users
+(
+	username text not null primary key,
+	password text not null,
+	email text not null,
+	first_name text not null,
+	last_name text not null,
+	gender text not null,
+	personID text not null
+
+);
+
+create table auth_tokens
+(
+	auth_token text not null primary key,
+	username text not null
+);
+
+create table persons
+(
+	personID text not null primary key,
+	descendant text not null,
+	first_name text not null,
+	last_name text not null,
+	gender text not null,
+	fatherID text,
+	motherID text,
+	spouseID text
+);
+
+create table events
+(	
+	eventID text not null primary key,
+	descendant text not null,
+	personID text not null,
+	latitude real not null,
+	longitude real not null,
+	country text not null,
+	city text not null,
+	eventType text not null,
+	year int not null
+);
